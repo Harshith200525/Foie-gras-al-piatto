@@ -69,5 +69,4 @@ randomMealCard.onclick = () => {
 
 function closeBtn(){
     mealModal.style.display = "none"
-    console.log("clicked")
 }
