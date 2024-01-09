@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foie gras al piatto</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div id="main">
+        <header>
+            <div id="name-holder"><h1>Foie gras al piatto</h1></div>
+            <div id="brief-intro"><p>Experience fine cuisines which are absolutely top notch with richness. Eat and experience every taste possible with our different recipes. We have atleast one recipe for everyone</p></div>
+            <div id="search-div">
+                <input type="text" placeholder="Search..." id="search-input"/>
+                <button id="searchBtn">Click me</button>
+            </div>
+        </header>
+        <div id="randomized-section">
+            <div id="heading-holder">
+                <h3>Random cuisine filled with richness</h3>
+            </div>
+            <div class="card" id="random-meal-card">
+                <img src="./assets/paneer-butter-masala.jpg" alt="">
+                <h3>Paneer butter masala</h3>
+            </div>
+        </div>
+        <div id="searched-section">
+            <div id="sub-heading-holder">
+                <h3 id="search-item"></h3>
+            </div>
+            <div id="search-cards-holder">
+                
+            </div>
+        </div>
+        <div id="meal-modal">
+
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
